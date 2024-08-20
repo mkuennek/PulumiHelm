@@ -1,0 +1,3 @@
+encryptionsalt: v1:Ltb5coX9uY8=:v1:etaznAEqL7mSQ0w2:OZprJI5bBOmCRomf1T+9OCI687DcXg==
+config:
+  PulumiHelm:k8sNamespace: default

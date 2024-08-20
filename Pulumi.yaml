@@ -1,0 +1,7 @@
+name: PulumiHelm
+runtime: dotnet
+description: A C# program to deploy a Helm chart onto a Kubernetes cluster
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: helm-kubernetes-csharp
