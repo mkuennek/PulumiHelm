@@ -3,14 +3,14 @@ image:
   repository: otel/opentelemetry-collector-contrib
 config:
   receivers:
-    jaeger: null
-    prometheus: null
-    zipkin: null
+    jaeger: {}
+    prometheus: {}
+    zipkin: {}
 
   service:
     pipelines:
-      logs: null
-      metrics: null
+      logs: {}
+      metrics: {}
       traces:
         receivers:
           - otlp
